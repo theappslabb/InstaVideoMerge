@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EFE64D81C7BE143005640A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE64D71C7BE143005640A0 /* main.m */; };
+		5EFE64DB1C7BE143005640A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE64DA1C7BE143005640A0 /* AppDelegate.m */; };
+		5EFE64DE1C7BE143005640A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE64DD1C7BE143005640A0 /* ViewController.m */; };
+		5EFE64E11C7BE143005640A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE64DF1C7BE143005640A0 /* Main.storyboard */; };
+		5EFE64E31C7BE143005640A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE64E21C7BE143005640A0 /* Assets.xcassets */; };
+		5EFE64E61C7BE143005640A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFE64E41C7BE143005640A0 /* LaunchScreen.storyboard */; };
+		5EFE64F11C7BE144005640A0 /* InstaVideoMergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE64F01C7BE144005640A0 /* InstaVideoMergeTests.m */; };
+		5EFE64FC1C7BE144005640A0 /* InstaVideoMergeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE64FB1C7BE144005640A0 /* InstaVideoMergeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EFE64ED1C7BE144005640A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EFE64CB1C7BE143005640A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFE64D21C7BE143005640A0;
+			remoteInfo = InstaVideoMerge;
+		};
+		5EFE64F81C7BE144005640A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EFE64CB1C7BE143005640A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFE64D21C7BE143005640A0;
+			remoteInfo = InstaVideoMerge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EFE64D31C7BE143005640A0 /* InstaVideoMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaVideoMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFE64D71C7BE143005640A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EFE64D91C7BE143005640A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EFE64DA1C7BE143005640A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EFE64DC1C7BE143005640A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EFE64DD1C7BE143005640A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EFE64E01C7BE143005640A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EFE64E21C7BE143005640A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFE64E51C7BE143005640A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFE64E71C7BE143005640A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFE64EC1C7BE144005640A0 /* InstaVideoMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaVideoMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFE64F01C7BE144005640A0 /* InstaVideoMergeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaVideoMergeTests.m; sourceTree = "<group>"; };
+		5EFE64F21C7BE144005640A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFE64F71C7BE144005640A0 /* InstaVideoMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaVideoMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFE64FB1C7BE144005640A0 /* InstaVideoMergeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaVideoMergeUITests.m; sourceTree = "<group>"; };
+		5EFE64FD1C7BE144005640A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFE64D01C7BE143005640A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE64E91C7BE144005640A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE64F41C7BE144005640A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EFE64CA1C7BE143005640A0 = {
+			isa = PBXGroup;
+			children = (
+				5EFE64D51C7BE143005640A0 /* InstaVideoMerge */,
+				5EFE64EF1C7BE144005640A0 /* InstaVideoMergeTests */,
+				5EFE64FA1C7BE144005640A0 /* InstaVideoMergeUITests */,
+				5EFE64D41C7BE143005640A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFE64D41C7BE143005640A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE64D31C7BE143005640A0 /* InstaVideoMerge.app */,
+				5EFE64EC1C7BE144005640A0 /* InstaVideoMergeTests.xctest */,
+				5EFE64F71C7BE144005640A0 /* InstaVideoMergeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFE64D51C7BE143005640A0 /* InstaVideoMerge */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE64D91C7BE143005640A0 /* AppDelegate.h */,
+				5EFE64DA1C7BE143005640A0 /* AppDelegate.m */,
+				5EFE64DC1C7BE143005640A0 /* ViewController.h */,
+				5EFE64DD1C7BE143005640A0 /* ViewController.m */,
+				5EFE64DF1C7BE143005640A0 /* Main.storyboard */,
+				5EFE64E21C7BE143005640A0 /* Assets.xcassets */,
+				5EFE64E41C7BE143005640A0 /* LaunchScreen.storyboard */,
+				5EFE64E71C7BE143005640A0 /* Info.plist */,
+				5EFE64D61C7BE143005640A0 /* Supporting Files */,
+			);
+			path = InstaVideoMerge;
+			sourceTree = "<group>";
+		};
+		5EFE64D61C7BE143005640A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE64D71C7BE143005640A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EFE64EF1C7BE144005640A0 /* InstaVideoMergeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE64F01C7BE144005640A0 /* InstaVideoMergeTests.m */,
+				5EFE64F21C7BE144005640A0 /* Info.plist */,
+			);
+			path = InstaVideoMergeTests;
+			sourceTree = "<group>";
+		};
+		5EFE64FA1C7BE144005640A0 /* InstaVideoMergeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE64FB1C7BE144005640A0 /* InstaVideoMergeUITests.m */,
+				5EFE64FD1C7BE144005640A0 /* Info.plist */,
+			);
+			path = InstaVideoMergeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFE64D21C7BE143005640A0 /* InstaVideoMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFE65001C7BE144005640A0 /* Build configuration list for PBXNativeTarget "InstaVideoMerge" */;
+			buildPhases = (
+				5EFE64CF1C7BE143005640A0 /* Sources */,
+				5EFE64D01C7BE143005640A0 /* Frameworks */,
+				5EFE64D11C7BE143005640A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaVideoMerge;
+			productName = InstaVideoMerge;
+			productReference = 5EFE64D31C7BE143005640A0 /* InstaVideoMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EFE64EB1C7BE144005640A0 /* InstaVideoMergeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFE65031C7BE144005640A0 /* Build configuration list for PBXNativeTarget "InstaVideoMergeTests" */;
+			buildPhases = (
+				5EFE64E81C7BE144005640A0 /* Sources */,
+				5EFE64E91C7BE144005640A0 /* Frameworks */,
+				5EFE64EA1C7BE144005640A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EFE64EE1C7BE144005640A0 /* PBXTargetDependency */,
+			);
+			name = InstaVideoMergeTests;
+			productName = InstaVideoMergeTests;
+			productReference = 5EFE64EC1C7BE144005640A0 /* InstaVideoMergeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EFE64F61C7BE144005640A0 /* InstaVideoMergeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFE65061C7BE144005640A0 /* Build configuration list for PBXNativeTarget "InstaVideoMergeUITests" */;
+			buildPhases = (
+				5EFE64F31C7BE144005640A0 /* Sources */,
+				5EFE64F41C7BE144005640A0 /* Frameworks */,
+				5EFE64F51C7BE144005640A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EFE64F91C7BE144005640A0 /* PBXTargetDependency */,
+			);
+			name = InstaVideoMergeUITests;
+			productName = InstaVideoMergeUITests;
+			productReference = 5EFE64F71C7BE144005640A0 /* InstaVideoMergeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFE64CB1C7BE143005640A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dimonds Infosys Pvt Ltd.";
+				TargetAttributes = {
+					5EFE64D21C7BE143005640A0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5EFE64EB1C7BE144005640A0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5EFE64D21C7BE143005640A0;
+					};
+					5EFE64F61C7BE144005640A0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5EFE64D21C7BE143005640A0;
+					};
+				};
+			};
+			buildConfigurationList = 5EFE64CE1C7BE143005640A0 /* Build configuration list for PBXProject "InstaVideoMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EFE64CA1C7BE143005640A0;
+			productRefGroup = 5EFE64D41C7BE143005640A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFE64D21C7BE143005640A0 /* InstaVideoMerge */,
+				5EFE64EB1C7BE144005640A0 /* InstaVideoMergeTests */,
+				5EFE64F61C7BE144005640A0 /* InstaVideoMergeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFE64D11C7BE143005640A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFE64E61C7BE143005640A0 /* LaunchScreen.storyboard in Resources */,
+				5EFE64E31C7BE143005640A0 /* Assets.xcassets in Resources */,
+				5EFE64E11C7BE143005640A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE64EA1C7BE144005640A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE64F51C7BE144005640A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFE64CF1C7BE143005640A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFE64DE1C7BE143005640A0 /* ViewController.m in Sources */,
+				5EFE64DB1C7BE143005640A0 /* AppDelegate.m in Sources */,
+				5EFE64D81C7BE143005640A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE64E81C7BE144005640A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFE64F11C7BE144005640A0 /* InstaVideoMergeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFE64F31C7BE144005640A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFE64FC1C7BE144005640A0 /* InstaVideoMergeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EFE64EE1C7BE144005640A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EFE64D21C7BE143005640A0 /* InstaVideoMerge */;
+			targetProxy = 5EFE64ED1C7BE144005640A0 /* PBXContainerItemProxy */;
+		};
+		5EFE64F91C7BE144005640A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EFE64D21C7BE143005640A0 /* InstaVideoMerge */;
+			targetProxy = 5EFE64F81C7BE144005640A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EFE64DF1C7BE143005640A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFE64E01C7BE143005640A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFE64E41C7BE143005640A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFE64E51C7BE143005640A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFE64FE1C7BE144005640A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EFE64FF1C7BE144005640A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFE65011C7BE144005640A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaVideoMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.InstaVideoMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EFE65021C7BE144005640A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaVideoMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.InstaVideoMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EFE65041C7BE144005640A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaVideoMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.InstaVideoMergeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaVideoMerge.app/InstaVideoMerge";
+			};
+			name = Debug;
+		};
+		5EFE65051C7BE144005640A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaVideoMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.InstaVideoMergeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaVideoMerge.app/InstaVideoMerge";
+			};
+			name = Release;
+		};
+		5EFE65071C7BE144005640A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaVideoMergeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.InstaVideoMergeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaVideoMerge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5EFE65081C7BE144005640A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaVideoMergeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DS.InstaVideoMergeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaVideoMerge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFE64CE1C7BE143005640A0 /* Build configuration list for PBXProject "InstaVideoMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFE64FE1C7BE144005640A0 /* Debug */,
+				5EFE64FF1C7BE144005640A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFE65001C7BE144005640A0 /* Build configuration list for PBXNativeTarget "InstaVideoMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFE65011C7BE144005640A0 /* Debug */,
+				5EFE65021C7BE144005640A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EFE65031C7BE144005640A0 /* Build configuration list for PBXNativeTarget "InstaVideoMergeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFE65041C7BE144005640A0 /* Debug */,
+				5EFE65051C7BE144005640A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EFE65061C7BE144005640A0 /* Build configuration list for PBXNativeTarget "InstaVideoMergeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFE65071C7BE144005640A0 /* Debug */,
+				5EFE65081C7BE144005640A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EFE64CB1C7BE143005640A0 /* Project object */;
+}
