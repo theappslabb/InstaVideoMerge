@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class EditorViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) EditorViewController *viewController;
 
 @end
 

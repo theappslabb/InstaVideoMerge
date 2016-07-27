@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IntroViewController.h
 //  InstaVideoMerge
 //
 //  Created by DEEPINDERPAL SINGH on 23/02/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface IntroViewController : UIViewController
 
 @end
-
